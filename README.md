@@ -1,12 +1,23 @@
-# React + Vite
+# API Call Example with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to fetch and display data from a public API (Fake Store API) in a React application.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches product data from [Fake Store API](https://fakestoreapi.com)
+- Displays products in a responsive grid layout
+- Shows product image, title, price, and rating
+- Loading state while data is being fetched
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Functional components)
+- React Hooks (useState, useEffect)
+- Fetch API for HTTP requests
+- CSS Grid for responsive layout
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/api-call-example.git
